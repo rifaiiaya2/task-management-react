@@ -1,0 +1,41 @@
+.nav-container {
+  @apply fixed top-0 w-full z-50;
+}
+.navbar {
+  @apply bg-gray-800 w-full p-4;
+}
+
+.nav-window-container {
+  @apply flex w-full justify-between items-center;
+}
+.ul-container {
+  @apply hidden lg:flex flex-row w-full justify-around;
+}
+.navbar-nav .nav-item {
+  @apply py-6 text-lg;
+}
+.nav-link-window {
+  @apply text-white flex items-center;
+}
+.nav-items-icon {
+  @apply me-2 ms-2;
+}
+.nav-link {
+  @apply text-white;
+}
+
+.menu-icon {
+  @apply lg:hidden cursor-pointer;
+}
+
+.mobile-menu {
+  @apply hidden absolute top-12 left-0 w-full bg-gray-400 transition-transform duration-300 transform -translate-y-full z-50;
+}
+
+.navbar-mobile {
+  @layer bg-dark bg-gradient flex-col text-center text-light;
+}
+
+.nav-link:hover {
+  @apply text-gray-300;
+}

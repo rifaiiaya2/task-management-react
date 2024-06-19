@@ -1,0 +1,18 @@
+.mashhad-container {
+  @apply container mx-auto text-center flex flex-col p-5;
+}
+.title {
+  @apply text-5xl text-yellow-400 mt-10;
+}
+.card-container {
+  @apply rounded overflow-hidden shadow-lg bg-white border-yellow-600 m-5 pb-4;
+}
+.title-container {
+  @apply flex items-center;
+}
+.data-title {
+  @apply text-2xl font-semibold  text-red-600;
+}
+.data-container {
+  @apply flex justify-center items-center mt-5 pt-4;
+}

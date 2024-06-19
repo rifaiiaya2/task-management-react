@@ -1,0 +1,15 @@
+.dash-container {
+  @apply min-h-screen flex flex-col justify-center items-center pt-4;
+}
+.dash-windows {
+  @apply flex flex-col lg:flex-row text-center lg:text-left items-center w-full space-y-5 lg:space-y-0 lg:space-x-5 pt-4;
+}
+.dash-h1 {
+  @apply text-2xl lg:text-5xl pb-1 text-yellow-500 pt-3;
+}
+.dash-p {
+  @apply text-lg lg:text-xl pt-1 leading-9 font-mono;
+}
+.dash-img {
+  @apply w-full h-auto;
+}

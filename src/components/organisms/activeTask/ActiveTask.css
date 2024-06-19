@@ -1,0 +1,22 @@
+.active-container {
+  @apply container mx-auto text-center flex flex-col p-5;
+}
+
+.active-h1 {
+  @apply text-5xl text-yellow-400 mt-10;
+}
+.input-container {
+  @layer pt-3 col-12 sm:col-10 md:col-8 lg:col-6 xl:col-7;
+}
+.active-input {
+  @apply w-full px-3 py-3 border rounded-lg text-lg;
+}
+.task-container {
+  @apply flex justify-between bg-white p-1 px-3 rounded-sm mb-2;
+}
+.delete-btn {
+  @apply flex items-center bg-red-500 hover:bg-red-600 text-white font-bold py-1 px-2 rounded;
+}
+.no-active-tasks {
+  @apply text-2xl font-semibold text-red-500 mt-4;
+}
